@@ -1,5 +1,18 @@
-$red: red;
+$header-bg: url(../images/pattern.png);
+$header-height: 300px;
+$white: #ffffff;
 
-body {
-  background: $red;
+header {
+  background: $header-bg;
+  color: $white;
+  height: $header-height;
+}
+
+.sidenav {
+  background: $header-bg;
+  color: $white;
+
+  li a {
+    color: $white;
+  }
 }

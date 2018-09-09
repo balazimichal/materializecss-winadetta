@@ -1,4 +1,12 @@
-body {
-  background: red; }
+header {
+  background: url(../images/pattern.png);
+  color: #ffffff;
+  height: 300px; }
+
+.sidenav {
+  background: url(../images/pattern.png);
+  color: #ffffff; }
+  .sidenav li a {
+    color: #ffffff; }
 
 /*# sourceMappingURL=custom-styles.css.map */

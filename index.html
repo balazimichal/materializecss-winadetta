@@ -17,13 +17,52 @@
 <body>
 
     <!-- SECTION: Header -->
+    <header>
+
+        <nav class="transparent z-depth-0">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo">Winadetta</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">Abstract</a></li>
+                        <li><a href="logos.html">Logos</a></li>
+                        <li><a href="products.html">Products</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Abstract</a></li>
+            <li><a href="logos.html">Logos</a></li>
+            <li><a href="products.html">Products</a></li>
+        </ul>
+
+
+
+        <h1 class="center">Eye catching graphic design</h1>
+        <h4 class="center">Michal Balazi</h4>
+    </header>
 
 
 
 
     <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+
     <script>
+
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+
+
+
+
+
+
 
 
 
