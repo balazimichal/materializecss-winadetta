@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Zilla+Slab');
+
 $header-bg: url(../images/pattern.png);
 $header-height: 300px;
 $white: #ffffff;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Zilla Slab', serif;
+}
 
 header {
   background: $header-bg;
