@@ -6,12 +6,9 @@ You can preview this app on surge: http://winadetta.surge.sh
 
 ## Features
 
-- floating action button
-- dynamic counter
-- toasts
-- button dropdown
-- working todo's section
-- modal with CK editor
+- responsive
+- lazy loading with scrollspy
+- lightbox
 
 ## Technologies
 
