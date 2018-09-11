@@ -6480,5 +6480,9 @@ header {
 
   h4 {
     font-size: 24px; } }
+.modal {
+  max-height: 80% !important; }
+  .modal .modal-footer {
+    padding: 0px 24px 24px; }
 
 /*# sourceMappingURL=custom-styles.css.map */

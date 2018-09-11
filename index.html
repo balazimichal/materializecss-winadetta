@@ -63,7 +63,8 @@
                         <div class="card-image">
                             <img src="images/a1.png">
                             <span class="card-title">Argea</span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                            <a data-target="modal1" class="btn-floating halfway-fab waves-effect waves-light red  modal-trigger"><i
+                                    class="material-icons">add</i></a>
                         </div>
                         <div class="card-content black-text">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fuga.</p>
@@ -85,7 +86,8 @@
                         <div class="card-image">
                             <img src="images/a2.jpeg">
                             <span class="card-title">Sarfa</span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                            <a data-target="modal2" class="btn-floating halfway-fab waves-effect waves-light red modal-trigger"><i
+                                    class="material-icons">add</i></a>
                         </div>
                         <div class="card-content black-text">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fuga.</p>
@@ -125,7 +127,8 @@
                         <div class="card-image">
                             <img src="images/a3.png">
                             <span class="card-title">Ciel</span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                            <a data-target="modal3" class="btn-floating halfway-fab waves-effect waves-light red modal-trigger"><i
+                                    class="material-icons">add</i></a>
                         </div>
                         <div class="card-content black-text">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, fuga.</p>
@@ -176,6 +179,69 @@
         </div>
     </footer>
 
+
+    <!-- MODALS -->
+    <div id="modal1" class="modal black-text">
+        <div class="modal-content">
+            <img src="images/a1.png" class="responsive-img" alt="" />
+            <h4>Argea</h4>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae libero voluptate minima dolorem quibusdam
+                magni sequi
+                ipsa nobis perspiciatis dolores.</p>
+        </div>
+        <div class="modal-footer orange-text">
+            <div class="left">
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal black-text">
+        <div class="modal-content">
+            <img src="images/a2.jpeg" class="responsive-img" alt="" />
+            <h4>Sarfa</h4>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae libero voluptate minima dolorem quibusdam
+                magni sequi
+                ipsa nobis perspiciatis dolores.</p>
+        </div>
+        <div class="modal-footer orange-text">
+            <div class="left">
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="modal3" class="modal black-text">
+        <div class="modal-content">
+            <img src="images/a3.png" class="responsive-img" alt="" />
+            <h4>Ciel</h4>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae libero voluptate minima dolorem quibusdam
+                magni sequi
+                ipsa nobis perspiciatis dolores.</p>
+        </div>
+        <div class="modal-footer orange-text">
+            <div class="left">
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+            </div>
+        </div>
+    </div>
+
     <!-- SCRIPTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -184,6 +250,7 @@
 
         $(document).ready(function () {
             $('.sidenav').sidenav();
+            $('.modal').modal();
         });
 
 
