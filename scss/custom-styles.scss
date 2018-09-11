@@ -1,11 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Zilla+Slab');
+@import './materialize';
 
+// variables
 $header-bg: url(../images/pattern.png);
 $header-height: 300px;
 $white: #ffffff;
+$black: #000000;
+
+// function
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return $black;
+  } @else {
+    @return $white;
+  }
+}
 
 body {
+  background: $primary-color;
   font-family: 'Open Sans', sans-serif;
+  color: set-text-color($primary-color);
 }
 
 h1,
@@ -29,5 +43,21 @@ header {
 
   li a {
     color: $white;
+  }
+}
+
+.img-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+}
+
+@media #{$small-and-down} {
+  h1 {
+    font-size: 42px;
+  }
+  h4 {
+    font-size: 24px;
   }
 }
