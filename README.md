@@ -2,7 +2,7 @@
 
 Winadetta is simple portfolio site build with materialize CSS framework using Koala for SASS.
 
-You can preview this app on surge: http://winadetta.surge.sh
+You can preview this app on surge: https://winadetta.surge.sh
 
 ## Features
 
