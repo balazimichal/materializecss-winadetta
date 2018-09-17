@@ -10,6 +10,8 @@ You can preview this app on surge: https://winadetta.surge.sh
 - lazy loading with scrollspy
 - lightbox
 
+![alt text](/images/screencapture-winadetta.png)
+
 ## Technologies
 
 - HTML5
